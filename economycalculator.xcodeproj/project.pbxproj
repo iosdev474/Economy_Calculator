@@ -1,0 +1,774 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD2BF8621CA819C300F1B162 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2BF8611CA819C300F1B162 /* main.m */; };
+		BD2BF8651CA819C300F1B162 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2BF8641CA819C300F1B162 /* AppDelegate.m */; };
+		BD2BF8681CA819C300F1B162 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2BF8671CA819C300F1B162 /* FirstViewController.m */; };
+		BD2BF86B1CA819C300F1B162 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2BF86A1CA819C300F1B162 /* SecondViewController.m */; };
+		BD2BF86E1CA819C300F1B162 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD2BF86C1CA819C300F1B162 /* Main.storyboard */; };
+		BD2BF8701CA819C300F1B162 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD2BF86F1CA819C300F1B162 /* Assets.xcassets */; };
+		BD2BF8731CA819C300F1B162 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD2BF8711CA819C300F1B162 /* LaunchScreen.storyboard */; };
+		BD2BF87E1CA819C300F1B162 /* calculator_economy_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2BF87D1CA819C300F1B162 /* calculator_economy_Tests.m */; };
+		BD2BF8891CA819C300F1B162 /* calculator_economy_UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2BF8881CA819C300F1B162 /* calculator_economy_UITests.m */; };
+		BD5FCE571D523C4800E3E6B6 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD5FCE561D523C4800E3E6B6 /* GoogleMobileAds.framework */; };
+		BD60A9BB1D094F8B003B0D6E /* icon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BD60A9BA1D094F8B003B0D6E /* icon.jpg */; };
+		BDBBB15F1CAA443900E3BEEF /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = BDBBB15E1CAA443900E3BEEF /* Icon.png */; };
+		BDBBB1621CAA4E6B00E3BEEF /* bookvalueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBBB1611CAA4E6B00E3BEEF /* bookvalueViewController.m */; };
+		BDBBB1651CAA4E8400E3BEEF /* capitalratioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBBB1641CAA4E8400E3BEEF /* capitalratioViewController.m */; };
+		BDBBB1691CAA4EA500E3BEEF /* cashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBBB1681CAA4EA500E3BEEF /* cashViewController.m */; };
+		BDBBB16C1CAA4EB900E3BEEF /* currentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBBB16B1CAA4EB900E3BEEF /* currentViewController.m */; };
+		BDBBB16F1CAA4ED000E3BEEF /* economicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBBB16E1CAA4ED000E3BEEF /* economicViewController.m */; };
+		BDBBB1721CAA4EF700E3BEEF /* fluctuationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBBB1711CAA4EF700E3BEEF /* fluctuationViewController.m */; };
+		BDBBB1751CAA4F0700E3BEEF /* iViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBBB1741CAA4F0700E3BEEF /* iViewController.m */; };
+		BDBBB1781CAA4F1900E3BEEF /* lViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBBB1771CAA4F1900E3BEEF /* lViewController.m */; };
+		BDBBB17B1CAA4F2E00E3BEEF /* m1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBBB17A1CAA4F2E00E3BEEF /* m1ViewController.m */; };
+		BDBBB17E1CAA4F3700E3BEEF /* m2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBBB17D1CAA4F3700E3BEEF /* m2ViewController.m */; };
+		BDBBB1811CAA4F4100E3BEEF /* nViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBBB1801CAA4F4100E3BEEF /* nViewController.m */; };
+		BDBBB1841CAA4F5700E3BEEF /* oViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBBB1831CAA4F5700E3BEEF /* oViewController.m */; };
+		BDBBB1871CAA4F6B00E3BEEF /* o2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBBB1861CAA4F6B00E3BEEF /* o2ViewController.m */; };
+		BDBBB18A1CAA4F7200E3BEEF /* o3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBBB1891CAA4F7200E3BEEF /* o3ViewController.m */; };
+		BDBBB18D1CAA4F8100E3BEEF /* p1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBBB18C1CAA4F8100E3BEEF /* p1ViewController.m */; };
+		BDBBB1901CAA4F8A00E3BEEF /* p2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBBB18F1CAA4F8A00E3BEEF /* p2ViewController.m */; };
+		BDBBB1931CAA4F9100E3BEEF /* p3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBBB1921CAA4F9100E3BEEF /* p3ViewController.m */; };
+		BDBBB1961CAA4F9800E3BEEF /* p4ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBBB1951CAA4F9800E3BEEF /* p4ViewController.m */; };
+		BDBBB1991CAA4F9E00E3BEEF /* p5ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBBB1981CAA4F9E00E3BEEF /* p5ViewController.m */; };
+		BDBBB19C1CAA4FA900E3BEEF /* p6ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBBB19B1CAA4FA900E3BEEF /* p6ViewController.m */; };
+		BDBBB19F1CAA4FB400E3BEEF /* rViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBBB19E1CAA4FB400E3BEEF /* rViewController.m */; };
+		BDBBB1A21CAA4FC200E3BEEF /* s1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBBB1A11CAA4FC200E3BEEF /* s1ViewController.m */; };
+		BDBBB1A51CAA4FC900E3BEEF /* s2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBBB1A41CAA4FC900E3BEEF /* s2ViewController.m */; };
+		BDBBB1A81CAA4FD200E3BEEF /* s3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBBB1A71CAA4FD200E3BEEF /* s3ViewController.m */; };
+		BDBBB1AB1CAA4FE400E3BEEF /* yViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBBB1AA1CAA4FE400E3BEEF /* yViewController.m */; };
+		BDC6C6801CA938460008DE4C /* b.png in Resources */ = {isa = PBXBuildFile; fileRef = BDC6C6671CA938460008DE4C /* b.png */; };
+		BDC6C6811CA938460008DE4C /* c.png in Resources */ = {isa = PBXBuildFile; fileRef = BDC6C6681CA938460008DE4C /* c.png */; };
+		BDC6C6831CA938460008DE4C /* e.png in Resources */ = {isa = PBXBuildFile; fileRef = BDC6C66A1CA938460008DE4C /* e.png */; };
+		BDC6C6841CA938460008DE4C /* f.png in Resources */ = {isa = PBXBuildFile; fileRef = BDC6C66B1CA938460008DE4C /* f.png */; };
+		BDC6C6871CA938460008DE4C /* i.png in Resources */ = {isa = PBXBuildFile; fileRef = BDC6C66E1CA938460008DE4C /* i.png */; };
+		BDC6C68A1CA938460008DE4C /* l.png in Resources */ = {isa = PBXBuildFile; fileRef = BDC6C6711CA938460008DE4C /* l.png */; };
+		BDC6C68B1CA938460008DE4C /* m.png in Resources */ = {isa = PBXBuildFile; fileRef = BDC6C6721CA938460008DE4C /* m.png */; };
+		BDC6C68C1CA938460008DE4C /* n.png in Resources */ = {isa = PBXBuildFile; fileRef = BDC6C6731CA938460008DE4C /* n.png */; };
+		BDC6C68D1CA938460008DE4C /* o.png in Resources */ = {isa = PBXBuildFile; fileRef = BDC6C6741CA938460008DE4C /* o.png */; };
+		BDC6C68E1CA938460008DE4C /* p.png in Resources */ = {isa = PBXBuildFile; fileRef = BDC6C6751CA938460008DE4C /* p.png */; };
+		BDC6C6901CA938460008DE4C /* r.png in Resources */ = {isa = PBXBuildFile; fileRef = BDC6C6771CA938460008DE4C /* r.png */; };
+		BDC6C6911CA938460008DE4C /* s.png in Resources */ = {isa = PBXBuildFile; fileRef = BDC6C6781CA938460008DE4C /* s.png */; };
+		BDC6C6971CA938460008DE4C /* y.png in Resources */ = {isa = PBXBuildFile; fileRef = BDC6C67E1CA938460008DE4C /* y.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BD2BF87A1CA819C300F1B162 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD2BF8551CA819C300F1B162 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD2BF85C1CA819C300F1B162;
+			remoteInfo = "calculator[economy]";
+		};
+		BD2BF8851CA819C300F1B162 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD2BF8551CA819C300F1B162 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD2BF85C1CA819C300F1B162;
+			remoteInfo = "calculator[economy]";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BD2BF85D1CA819C300F1B162 /* economycalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = economycalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD2BF8611CA819C300F1B162 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BD2BF8631CA819C300F1B162 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BD2BF8641CA819C300F1B162 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BD2BF8661CA819C300F1B162 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		BD2BF8671CA819C300F1B162 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		BD2BF8691CA819C300F1B162 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		BD2BF86A1CA819C300F1B162 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		BD2BF86D1CA819C300F1B162 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BD2BF86F1CA819C300F1B162 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BD2BF8721CA819C300F1B162 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BD2BF8741CA819C300F1B162 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD2BF8791CA819C300F1B162 /* economycalculator.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = economycalculator.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD2BF87D1CA819C300F1B162 /* calculator_economy_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = calculator_economy_Tests.m; sourceTree = "<group>"; };
+		BD2BF87F1CA819C300F1B162 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD2BF8841CA819C300F1B162 /* economycalculator.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = economycalculator.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD2BF8881CA819C300F1B162 /* calculator_economy_UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = calculator_economy_UITests.m; sourceTree = "<group>"; };
+		BD2BF88A1CA819C300F1B162 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD5FCE561D523C4800E3E6B6 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
+		BD60A9BA1D094F8B003B0D6E /* icon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = icon.jpg; sourceTree = "<group>"; };
+		BDBBB15E1CAA443900E3BEEF /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		BDBBB1601CAA4E6B00E3BEEF /* bookvalueViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bookvalueViewController.h; sourceTree = "<group>"; };
+		BDBBB1611CAA4E6B00E3BEEF /* bookvalueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = bookvalueViewController.m; sourceTree = "<group>"; };
+		BDBBB1631CAA4E8400E3BEEF /* capitalratioViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = capitalratioViewController.h; sourceTree = "<group>"; };
+		BDBBB1641CAA4E8400E3BEEF /* capitalratioViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = capitalratioViewController.m; sourceTree = "<group>"; };
+		BDBBB1671CAA4EA500E3BEEF /* cashViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cashViewController.h; sourceTree = "<group>"; };
+		BDBBB1681CAA4EA500E3BEEF /* cashViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cashViewController.m; sourceTree = "<group>"; };
+		BDBBB16A1CAA4EB900E3BEEF /* currentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = currentViewController.h; sourceTree = "<group>"; };
+		BDBBB16B1CAA4EB900E3BEEF /* currentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = currentViewController.m; sourceTree = "<group>"; };
+		BDBBB16D1CAA4ED000E3BEEF /* economicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = economicViewController.h; sourceTree = "<group>"; };
+		BDBBB16E1CAA4ED000E3BEEF /* economicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = economicViewController.m; sourceTree = "<group>"; };
+		BDBBB1701CAA4EF700E3BEEF /* fluctuationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fluctuationViewController.h; sourceTree = "<group>"; };
+		BDBBB1711CAA4EF700E3BEEF /* fluctuationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = fluctuationViewController.m; sourceTree = "<group>"; };
+		BDBBB1731CAA4F0700E3BEEF /* iViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iViewController.h; sourceTree = "<group>"; };
+		BDBBB1741CAA4F0700E3BEEF /* iViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iViewController.m; sourceTree = "<group>"; };
+		BDBBB1761CAA4F1900E3BEEF /* lViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lViewController.h; sourceTree = "<group>"; };
+		BDBBB1771CAA4F1900E3BEEF /* lViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = lViewController.m; sourceTree = "<group>"; };
+		BDBBB1791CAA4F2E00E3BEEF /* m1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = m1ViewController.h; sourceTree = "<group>"; };
+		BDBBB17A1CAA4F2E00E3BEEF /* m1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = m1ViewController.m; sourceTree = "<group>"; };
+		BDBBB17C1CAA4F3700E3BEEF /* m2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = m2ViewController.h; sourceTree = "<group>"; };
+		BDBBB17D1CAA4F3700E3BEEF /* m2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = m2ViewController.m; sourceTree = "<group>"; };
+		BDBBB17F1CAA4F4100E3BEEF /* nViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nViewController.h; sourceTree = "<group>"; };
+		BDBBB1801CAA4F4100E3BEEF /* nViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = nViewController.m; sourceTree = "<group>"; };
+		BDBBB1821CAA4F5700E3BEEF /* oViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = oViewController.h; sourceTree = "<group>"; };
+		BDBBB1831CAA4F5700E3BEEF /* oViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = oViewController.m; sourceTree = "<group>"; };
+		BDBBB1851CAA4F6B00E3BEEF /* o2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = o2ViewController.h; sourceTree = "<group>"; };
+		BDBBB1861CAA4F6B00E3BEEF /* o2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = o2ViewController.m; sourceTree = "<group>"; };
+		BDBBB1881CAA4F7200E3BEEF /* o3ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = o3ViewController.h; sourceTree = "<group>"; };
+		BDBBB1891CAA4F7200E3BEEF /* o3ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = o3ViewController.m; sourceTree = "<group>"; };
+		BDBBB18B1CAA4F8100E3BEEF /* p1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = p1ViewController.h; sourceTree = "<group>"; };
+		BDBBB18C1CAA4F8100E3BEEF /* p1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = p1ViewController.m; sourceTree = "<group>"; };
+		BDBBB18E1CAA4F8A00E3BEEF /* p2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = p2ViewController.h; sourceTree = "<group>"; };
+		BDBBB18F1CAA4F8A00E3BEEF /* p2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = p2ViewController.m; sourceTree = "<group>"; };
+		BDBBB1911CAA4F9100E3BEEF /* p3ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = p3ViewController.h; sourceTree = "<group>"; };
+		BDBBB1921CAA4F9100E3BEEF /* p3ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = p3ViewController.m; sourceTree = "<group>"; };
+		BDBBB1941CAA4F9800E3BEEF /* p4ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = p4ViewController.h; sourceTree = "<group>"; };
+		BDBBB1951CAA4F9800E3BEEF /* p4ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = p4ViewController.m; sourceTree = "<group>"; };
+		BDBBB1971CAA4F9E00E3BEEF /* p5ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = p5ViewController.h; sourceTree = "<group>"; };
+		BDBBB1981CAA4F9E00E3BEEF /* p5ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = p5ViewController.m; sourceTree = "<group>"; };
+		BDBBB19A1CAA4FA900E3BEEF /* p6ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = p6ViewController.h; sourceTree = "<group>"; };
+		BDBBB19B1CAA4FA900E3BEEF /* p6ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = p6ViewController.m; sourceTree = "<group>"; };
+		BDBBB19D1CAA4FB400E3BEEF /* rViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rViewController.h; sourceTree = "<group>"; };
+		BDBBB19E1CAA4FB400E3BEEF /* rViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = rViewController.m; sourceTree = "<group>"; };
+		BDBBB1A01CAA4FC200E3BEEF /* s1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = s1ViewController.h; sourceTree = "<group>"; };
+		BDBBB1A11CAA4FC200E3BEEF /* s1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = s1ViewController.m; sourceTree = "<group>"; };
+		BDBBB1A31CAA4FC900E3BEEF /* s2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = s2ViewController.h; sourceTree = "<group>"; };
+		BDBBB1A41CAA4FC900E3BEEF /* s2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = s2ViewController.m; sourceTree = "<group>"; };
+		BDBBB1A61CAA4FD200E3BEEF /* s3ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = s3ViewController.h; sourceTree = "<group>"; };
+		BDBBB1A71CAA4FD200E3BEEF /* s3ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = s3ViewController.m; sourceTree = "<group>"; };
+		BDBBB1A91CAA4FE400E3BEEF /* yViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yViewController.h; sourceTree = "<group>"; };
+		BDBBB1AA1CAA4FE400E3BEEF /* yViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = yViewController.m; sourceTree = "<group>"; };
+		BDC6C6671CA938460008DE4C /* b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = b.png; sourceTree = "<group>"; };
+		BDC6C6681CA938460008DE4C /* c.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = c.png; sourceTree = "<group>"; };
+		BDC6C66A1CA938460008DE4C /* e.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = e.png; sourceTree = "<group>"; };
+		BDC6C66B1CA938460008DE4C /* f.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = f.png; sourceTree = "<group>"; };
+		BDC6C66E1CA938460008DE4C /* i.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = i.png; sourceTree = "<group>"; };
+		BDC6C6711CA938460008DE4C /* l.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = l.png; sourceTree = "<group>"; };
+		BDC6C6721CA938460008DE4C /* m.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = m.png; sourceTree = "<group>"; };
+		BDC6C6731CA938460008DE4C /* n.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = n.png; sourceTree = "<group>"; };
+		BDC6C6741CA938460008DE4C /* o.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = o.png; sourceTree = "<group>"; };
+		BDC6C6751CA938460008DE4C /* p.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = p.png; sourceTree = "<group>"; };
+		BDC6C6771CA938460008DE4C /* r.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = r.png; sourceTree = "<group>"; };
+		BDC6C6781CA938460008DE4C /* s.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = s.png; sourceTree = "<group>"; };
+		BDC6C67E1CA938460008DE4C /* y.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = y.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD2BF85A1CA819C300F1B162 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD5FCE571D523C4800E3E6B6 /* GoogleMobileAds.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD2BF8761CA819C300F1B162 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD2BF8811CA819C300F1B162 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD2BF8541CA819C300F1B162 = {
+			isa = PBXGroup;
+			children = (
+				BD2BF85F1CA819C300F1B162 /* calculator[economy] */,
+				BD2BF87C1CA819C300F1B162 /* calculator[economy]Tests */,
+				BD2BF8871CA819C300F1B162 /* calculator[economy]UITests */,
+				BD2BF85E1CA819C300F1B162 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD2BF85E1CA819C300F1B162 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD2BF85D1CA819C300F1B162 /* economycalculator.app */,
+				BD2BF8791CA819C300F1B162 /* economycalculator.xctest */,
+				BD2BF8841CA819C300F1B162 /* economycalculator.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD2BF85F1CA819C300F1B162 /* calculator[economy] */ = {
+			isa = PBXGroup;
+			children = (
+				BD2BF8631CA819C300F1B162 /* AppDelegate.h */,
+				BD2BF8641CA819C300F1B162 /* AppDelegate.m */,
+				BD2BF86C1CA819C300F1B162 /* Main.storyboard */,
+				BD2BF86F1CA819C300F1B162 /* Assets.xcassets */,
+				BD2BF8711CA819C300F1B162 /* LaunchScreen.storyboard */,
+				BD2BF8741CA819C300F1B162 /* Info.plist */,
+				BD5FCE551D523BE100E3E6B6 /* controllers */,
+				BD2BF8601CA819C300F1B162 /* Supporting Files */,
+			);
+			path = "calculator[economy]";
+			sourceTree = "<group>";
+		};
+		BD2BF8601CA819C300F1B162 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BD5FCE561D523C4800E3E6B6 /* GoogleMobileAds.framework */,
+				BD60A9BA1D094F8B003B0D6E /* icon.jpg */,
+				BDBBB15E1CAA443900E3BEEF /* Icon.png */,
+				BDC6C6671CA938460008DE4C /* b.png */,
+				BDC6C6681CA938460008DE4C /* c.png */,
+				BDC6C66A1CA938460008DE4C /* e.png */,
+				BDC6C66B1CA938460008DE4C /* f.png */,
+				BDC6C66E1CA938460008DE4C /* i.png */,
+				BDC6C6711CA938460008DE4C /* l.png */,
+				BDC6C6721CA938460008DE4C /* m.png */,
+				BDC6C6731CA938460008DE4C /* n.png */,
+				BDC6C6741CA938460008DE4C /* o.png */,
+				BDC6C6751CA938460008DE4C /* p.png */,
+				BDC6C6771CA938460008DE4C /* r.png */,
+				BDC6C6781CA938460008DE4C /* s.png */,
+				BDC6C67E1CA938460008DE4C /* y.png */,
+				BD2BF8611CA819C300F1B162 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BD2BF87C1CA819C300F1B162 /* calculator[economy]Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BD2BF87D1CA819C300F1B162 /* calculator_economy_Tests.m */,
+				BD2BF87F1CA819C300F1B162 /* Info.plist */,
+			);
+			path = "calculator[economy]Tests";
+			sourceTree = "<group>";
+		};
+		BD2BF8871CA819C300F1B162 /* calculator[economy]UITests */ = {
+			isa = PBXGroup;
+			children = (
+				BD2BF8881CA819C300F1B162 /* calculator_economy_UITests.m */,
+				BD2BF88A1CA819C300F1B162 /* Info.plist */,
+			);
+			path = "calculator[economy]UITests";
+			sourceTree = "<group>";
+		};
+		BD5FCE551D523BE100E3E6B6 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BDBBB1601CAA4E6B00E3BEEF /* bookvalueViewController.h */,
+				BDBBB1631CAA4E8400E3BEEF /* capitalratioViewController.h */,
+				BDBBB1671CAA4EA500E3BEEF /* cashViewController.h */,
+				BDBBB16A1CAA4EB900E3BEEF /* currentViewController.h */,
+				BDBBB16D1CAA4ED000E3BEEF /* economicViewController.h */,
+				BD2BF8661CA819C300F1B162 /* FirstViewController.h */,
+				BDBBB1701CAA4EF700E3BEEF /* fluctuationViewController.h */,
+				BDBBB1731CAA4F0700E3BEEF /* iViewController.h */,
+				BDBBB1761CAA4F1900E3BEEF /* lViewController.h */,
+				BDBBB1791CAA4F2E00E3BEEF /* m1ViewController.h */,
+				BDBBB17C1CAA4F3700E3BEEF /* m2ViewController.h */,
+				BDBBB17F1CAA4F4100E3BEEF /* nViewController.h */,
+				BDBBB1851CAA4F6B00E3BEEF /* o2ViewController.h */,
+				BDBBB1881CAA4F7200E3BEEF /* o3ViewController.h */,
+				BDBBB1821CAA4F5700E3BEEF /* oViewController.h */,
+				BDBBB18B1CAA4F8100E3BEEF /* p1ViewController.h */,
+				BDBBB18E1CAA4F8A00E3BEEF /* p2ViewController.h */,
+				BDBBB1911CAA4F9100E3BEEF /* p3ViewController.h */,
+				BDBBB1941CAA4F9800E3BEEF /* p4ViewController.h */,
+				BDBBB1971CAA4F9E00E3BEEF /* p5ViewController.h */,
+				BDBBB19A1CAA4FA900E3BEEF /* p6ViewController.h */,
+				BDBBB19D1CAA4FB400E3BEEF /* rViewController.h */,
+				BDBBB1A01CAA4FC200E3BEEF /* s1ViewController.h */,
+				BDBBB1A31CAA4FC900E3BEEF /* s2ViewController.h */,
+				BDBBB1A61CAA4FD200E3BEEF /* s3ViewController.h */,
+				BD2BF8691CA819C300F1B162 /* SecondViewController.h */,
+				BDBBB1A91CAA4FE400E3BEEF /* yViewController.h */,
+				BDBBB1611CAA4E6B00E3BEEF /* bookvalueViewController.m */,
+				BDBBB1641CAA4E8400E3BEEF /* capitalratioViewController.m */,
+				BDBBB1681CAA4EA500E3BEEF /* cashViewController.m */,
+				BDBBB16B1CAA4EB900E3BEEF /* currentViewController.m */,
+				BDBBB16E1CAA4ED000E3BEEF /* economicViewController.m */,
+				BD2BF8671CA819C300F1B162 /* FirstViewController.m */,
+				BDBBB1711CAA4EF700E3BEEF /* fluctuationViewController.m */,
+				BDBBB1741CAA4F0700E3BEEF /* iViewController.m */,
+				BDBBB1771CAA4F1900E3BEEF /* lViewController.m */,
+				BDBBB17A1CAA4F2E00E3BEEF /* m1ViewController.m */,
+				BDBBB17D1CAA4F3700E3BEEF /* m2ViewController.m */,
+				BDBBB1801CAA4F4100E3BEEF /* nViewController.m */,
+				BDBBB1861CAA4F6B00E3BEEF /* o2ViewController.m */,
+				BDBBB1891CAA4F7200E3BEEF /* o3ViewController.m */,
+				BDBBB1831CAA4F5700E3BEEF /* oViewController.m */,
+				BDBBB18C1CAA4F8100E3BEEF /* p1ViewController.m */,
+				BDBBB18F1CAA4F8A00E3BEEF /* p2ViewController.m */,
+				BDBBB1921CAA4F9100E3BEEF /* p3ViewController.m */,
+				BDBBB1951CAA4F9800E3BEEF /* p4ViewController.m */,
+				BDBBB1981CAA4F9E00E3BEEF /* p5ViewController.m */,
+				BDBBB19B1CAA4FA900E3BEEF /* p6ViewController.m */,
+				BDBBB19E1CAA4FB400E3BEEF /* rViewController.m */,
+				BDBBB1A11CAA4FC200E3BEEF /* s1ViewController.m */,
+				BDBBB1A41CAA4FC900E3BEEF /* s2ViewController.m */,
+				BDBBB1A71CAA4FD200E3BEEF /* s3ViewController.m */,
+				BD2BF86A1CA819C300F1B162 /* SecondViewController.m */,
+				BDBBB1AA1CAA4FE400E3BEEF /* yViewController.m */,
+			);
+			name = controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD2BF85C1CA819C300F1B162 /* economycalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD2BF88D1CA819C300F1B162 /* Build configuration list for PBXNativeTarget "economycalculator" */;
+			buildPhases = (
+				BD2BF8591CA819C300F1B162 /* Sources */,
+				BD2BF85A1CA819C300F1B162 /* Frameworks */,
+				BD2BF85B1CA819C300F1B162 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = economycalculator;
+			productName = "calculator[economy]";
+			productReference = BD2BF85D1CA819C300F1B162 /* economycalculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BD2BF8781CA819C300F1B162 /* economycalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD2BF8901CA819C300F1B162 /* Build configuration list for PBXNativeTarget "economycalculatorTests" */;
+			buildPhases = (
+				BD2BF8751CA819C300F1B162 /* Sources */,
+				BD2BF8761CA819C300F1B162 /* Frameworks */,
+				BD2BF8771CA819C300F1B162 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD2BF87B1CA819C300F1B162 /* PBXTargetDependency */,
+			);
+			name = economycalculatorTests;
+			productName = "calculator[economy]Tests";
+			productReference = BD2BF8791CA819C300F1B162 /* economycalculator.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BD2BF8831CA819C300F1B162 /* economycalculatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD2BF8931CA819C300F1B162 /* Build configuration list for PBXNativeTarget "economycalculatorUITests" */;
+			buildPhases = (
+				BD2BF8801CA819C300F1B162 /* Sources */,
+				BD2BF8811CA819C300F1B162 /* Frameworks */,
+				BD2BF8821CA819C300F1B162 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD2BF8861CA819C300F1B162 /* PBXTargetDependency */,
+			);
+			name = economycalculatorUITests;
+			productName = "calculator[economy]UITests";
+			productReference = BD2BF8841CA819C300F1B162 /* economycalculator.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD2BF8551CA819C300F1B162 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Narender Pal Singh";
+				TargetAttributes = {
+					BD2BF85C1CA819C300F1B162 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = X8A3SL2629;
+						SystemCapabilities = {
+							com.apple.InAppPurchase = {
+								enabled = 0;
+							};
+						};
+					};
+					BD2BF8781CA819C300F1B162 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = BD2BF85C1CA819C300F1B162;
+					};
+					BD2BF8831CA819C300F1B162 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = BD2BF85C1CA819C300F1B162;
+					};
+				};
+			};
+			buildConfigurationList = BD2BF8581CA819C300F1B162 /* Build configuration list for PBXProject "economycalculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD2BF8541CA819C300F1B162;
+			productRefGroup = BD2BF85E1CA819C300F1B162 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD2BF85C1CA819C300F1B162 /* economycalculator */,
+				BD2BF8781CA819C300F1B162 /* economycalculatorTests */,
+				BD2BF8831CA819C300F1B162 /* economycalculatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD2BF85B1CA819C300F1B162 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDBBB15F1CAA443900E3BEEF /* Icon.png in Resources */,
+				BD2BF8731CA819C300F1B162 /* LaunchScreen.storyboard in Resources */,
+				BDC6C68D1CA938460008DE4C /* o.png in Resources */,
+				BDC6C6971CA938460008DE4C /* y.png in Resources */,
+				BD60A9BB1D094F8B003B0D6E /* icon.jpg in Resources */,
+				BDC6C6801CA938460008DE4C /* b.png in Resources */,
+				BDC6C68B1CA938460008DE4C /* m.png in Resources */,
+				BDC6C68A1CA938460008DE4C /* l.png in Resources */,
+				BDC6C6841CA938460008DE4C /* f.png in Resources */,
+				BDC6C6911CA938460008DE4C /* s.png in Resources */,
+				BDC6C6901CA938460008DE4C /* r.png in Resources */,
+				BDC6C6811CA938460008DE4C /* c.png in Resources */,
+				BDC6C68C1CA938460008DE4C /* n.png in Resources */,
+				BD2BF8701CA819C300F1B162 /* Assets.xcassets in Resources */,
+				BDC6C6831CA938460008DE4C /* e.png in Resources */,
+				BDC6C6871CA938460008DE4C /* i.png in Resources */,
+				BD2BF86E1CA819C300F1B162 /* Main.storyboard in Resources */,
+				BDC6C68E1CA938460008DE4C /* p.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD2BF8771CA819C300F1B162 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD2BF8821CA819C300F1B162 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD2BF8591CA819C300F1B162 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDBBB1871CAA4F6B00E3BEEF /* o2ViewController.m in Sources */,
+				BDBBB1811CAA4F4100E3BEEF /* nViewController.m in Sources */,
+				BDBBB19C1CAA4FA900E3BEEF /* p6ViewController.m in Sources */,
+				BDBBB19F1CAA4FB400E3BEEF /* rViewController.m in Sources */,
+				BDBBB1691CAA4EA500E3BEEF /* cashViewController.m in Sources */,
+				BDBBB1A51CAA4FC900E3BEEF /* s2ViewController.m in Sources */,
+				BDBBB1621CAA4E6B00E3BEEF /* bookvalueViewController.m in Sources */,
+				BD2BF86B1CA819C300F1B162 /* SecondViewController.m in Sources */,
+				BD2BF8651CA819C300F1B162 /* AppDelegate.m in Sources */,
+				BDBBB18A1CAA4F7200E3BEEF /* o3ViewController.m in Sources */,
+				BDBBB16C1CAA4EB900E3BEEF /* currentViewController.m in Sources */,
+				BDBBB1931CAA4F9100E3BEEF /* p3ViewController.m in Sources */,
+				BD2BF8681CA819C300F1B162 /* FirstViewController.m in Sources */,
+				BDBBB1A21CAA4FC200E3BEEF /* s1ViewController.m in Sources */,
+				BD2BF8621CA819C300F1B162 /* main.m in Sources */,
+				BDBBB1901CAA4F8A00E3BEEF /* p2ViewController.m in Sources */,
+				BDBBB1721CAA4EF700E3BEEF /* fluctuationViewController.m in Sources */,
+				BDBBB16F1CAA4ED000E3BEEF /* economicViewController.m in Sources */,
+				BDBBB1A81CAA4FD200E3BEEF /* s3ViewController.m in Sources */,
+				BDBBB1841CAA4F5700E3BEEF /* oViewController.m in Sources */,
+				BDBBB17E1CAA4F3700E3BEEF /* m2ViewController.m in Sources */,
+				BDBBB1751CAA4F0700E3BEEF /* iViewController.m in Sources */,
+				BDBBB18D1CAA4F8100E3BEEF /* p1ViewController.m in Sources */,
+				BDBBB1961CAA4F9800E3BEEF /* p4ViewController.m in Sources */,
+				BDBBB1651CAA4E8400E3BEEF /* capitalratioViewController.m in Sources */,
+				BDBBB1781CAA4F1900E3BEEF /* lViewController.m in Sources */,
+				BDBBB17B1CAA4F2E00E3BEEF /* m1ViewController.m in Sources */,
+				BDBBB1991CAA4F9E00E3BEEF /* p5ViewController.m in Sources */,
+				BDBBB1AB1CAA4FE400E3BEEF /* yViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD2BF8751CA819C300F1B162 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD2BF87E1CA819C300F1B162 /* calculator_economy_Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD2BF8801CA819C300F1B162 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD2BF8891CA819C300F1B162 /* calculator_economy_UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BD2BF87B1CA819C300F1B162 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD2BF85C1CA819C300F1B162 /* economycalculator */;
+			targetProxy = BD2BF87A1CA819C300F1B162 /* PBXContainerItemProxy */;
+		};
+		BD2BF8861CA819C300F1B162 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD2BF85C1CA819C300F1B162 /* economycalculator */;
+			targetProxy = BD2BF8851CA819C300F1B162 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BD2BF86C1CA819C300F1B162 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD2BF86D1CA819C300F1B162 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BD2BF8711CA819C300F1B162 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD2BF8721CA819C300F1B162 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BD2BF88B1CA819C300F1B162 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BD2BF88C1CA819C300F1B162 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD2BF88E1CA819C300F1B162 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/calculator[economy]",
+				);
+				INFOPLIST_FILE = "calculator[economy]/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/AppnextiOSSDK";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.narenderpalsingh.calculator-economy";
+				PRODUCT_NAME = economycalculator;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BD2BF88F1CA819C300F1B162 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/calculator[economy]",
+				);
+				INFOPLIST_FILE = "calculator[economy]/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/AppnextiOSSDK";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.narenderpalsingh.calculator-economy";
+				PRODUCT_NAME = economycalculator;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BD2BF8911CA819C300F1B162 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "calculator[economy]Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.narenderpalsingh.calculator-economy-Tests";
+				PRODUCT_NAME = economycalculator;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/economycalculator.app/economycalculator";
+			};
+			name = Debug;
+		};
+		BD2BF8921CA819C300F1B162 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "calculator[economy]Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.narenderpalsingh.calculator-economy-Tests";
+				PRODUCT_NAME = economycalculator;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/economycalculator.app/economycalculator";
+			};
+			name = Release;
+		};
+		BD2BF8941CA819C300F1B162 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "calculator[economy]UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.narenderpalsingh.calculator-economy-UITests";
+				PRODUCT_NAME = economycalculator;
+				TEST_TARGET_NAME = "calculator[economy]";
+			};
+			name = Debug;
+		};
+		BD2BF8951CA819C300F1B162 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "calculator[economy]UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.narenderpalsingh.calculator-economy-UITests";
+				PRODUCT_NAME = economycalculator;
+				TEST_TARGET_NAME = "calculator[economy]";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD2BF8581CA819C300F1B162 /* Build configuration list for PBXProject "economycalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD2BF88B1CA819C300F1B162 /* Debug */,
+				BD2BF88C1CA819C300F1B162 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD2BF88D1CA819C300F1B162 /* Build configuration list for PBXNativeTarget "economycalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD2BF88E1CA819C300F1B162 /* Debug */,
+				BD2BF88F1CA819C300F1B162 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD2BF8901CA819C300F1B162 /* Build configuration list for PBXNativeTarget "economycalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD2BF8911CA819C300F1B162 /* Debug */,
+				BD2BF8921CA819C300F1B162 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD2BF8931CA819C300F1B162 /* Build configuration list for PBXNativeTarget "economycalculatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD2BF8941CA819C300F1B162 /* Debug */,
+				BD2BF8951CA819C300F1B162 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD2BF8551CA819C300F1B162 /* Project object */;
+}

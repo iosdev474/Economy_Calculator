@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8150" systemVersion="15A204g" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8122"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -13,15 +15,63 @@
                         <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <animations/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Economy" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T5D-Y1-Tkd">
+                                <rect key="frame" x="20" y="511" width="374" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="Pe1-GV-fwc"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="36"/>
+                                <color key="textColor" red="0.062745098039215685" green="0.46666666666666667" blue="0.19215686274509805" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Calculator" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eKG-9D-JsU">
+                                <rect key="frame" x="20" y="573" width="374" height="100"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="36"/>
+                                <color key="textColor" red="0.062745098040000002" green="0.46666666670000001" blue="0.19215686269999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7OD-iO-eeV">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="497"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="ROQ-hH-91g">
+                                        <rect key="frame" x="20" y="80" width="374" height="337"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="ROQ-hH-91g" firstAttribute="centerY" secondItem="7OD-iO-eeV" secondAttribute="centerY" id="7SA-ee-vuM"/>
+                                    <constraint firstItem="ROQ-hH-91g" firstAttribute="leading" secondItem="7OD-iO-eeV" secondAttribute="leading" constant="20" id="EYB-kM-ZRW"/>
+                                    <constraint firstItem="ROQ-hH-91g" firstAttribute="top" secondItem="7OD-iO-eeV" secondAttribute="top" constant="80" id="fws-0q-Fpy"/>
+                                    <constraint firstItem="ROQ-hH-91g" firstAttribute="centerX" secondItem="7OD-iO-eeV" secondAttribute="centerX" id="ndB-MB-6gU"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="eKG-9D-JsU" firstAttribute="top" secondItem="7OD-iO-eeV" secondAttribute="bottom" constant="76" id="6Cq-I5-oFy"/>
+                            <constraint firstItem="T5D-Y1-Tkd" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" id="7HV-1D-clw"/>
+                            <constraint firstItem="7OD-iO-eeV" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="7dO-ih-VzM"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="eKG-9D-JsU" secondAttribute="bottom" constant="63" id="HdG-zQ-cVF"/>
+                            <constraint firstItem="T5D-Y1-Tkd" firstAttribute="leading" secondItem="eKG-9D-JsU" secondAttribute="leading" id="IHg-sw-noK"/>
+                            <constraint firstItem="7OD-iO-eeV" firstAttribute="centerX" secondItem="T5D-Y1-Tkd" secondAttribute="centerX" id="S3J-2Y-upS"/>
+                            <constraint firstItem="T5D-Y1-Tkd" firstAttribute="trailing" secondItem="eKG-9D-JsU" secondAttribute="trailing" id="dk8-0N-aLZ"/>
+                            <constraint firstItem="7OD-iO-eeV" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="hpe-kd-TW9"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="T5D-Y1-Tkd" secondAttribute="bottom" constant="125" id="pHm-U8-Weq"/>
+                            <constraint firstAttribute="trailing" secondItem="7OD-iO-eeV" secondAttribute="trailing" id="s3x-zi-YqE"/>
+                            <constraint firstItem="T5D-Y1-Tkd" firstAttribute="top" secondItem="7OD-iO-eeV" secondAttribute="bottom" constant="14" id="ssg-7d-yaC"/>
+                        </constraints>
                     </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="53" y="375"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Icon.png" width="1024" height="1024"/>
+    </resources>
 </document>
